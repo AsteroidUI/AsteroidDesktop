@@ -1,0 +1,18 @@
+{
+  "images" : [
+    {
+      "filename" : "releasenote-touch-1x.png",
+      "idiom" : "mac",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "releasenote-touch-2x.png",
+      "idiom" : "mac",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

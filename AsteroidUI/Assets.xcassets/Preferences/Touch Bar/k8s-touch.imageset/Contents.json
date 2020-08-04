@@ -1,0 +1,18 @@
+{
+  "images" : [
+    {
+      "filename" : "setkubenetes-touch-1x.png",
+      "idiom" : "mac",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "setkubenetes-touch-2x.png",
+      "idiom" : "mac",
+      "scale" : "2x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

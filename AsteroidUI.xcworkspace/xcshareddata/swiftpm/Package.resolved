@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "LoginItemKit",
+        "repositoryURL": "https://github.com/chrenn/LoginItemKit",
+        "state": {
+          "branch": null,
+          "revision": "f8ae0e15220a62d6205fa04b98d4bf61180a25d8",
+          "version": "1.0.1"
+        }
+      },
+      {
+        "package": "Yams",
+        "repositoryURL": "https://github.com/jpsim/Yams.git",
+        "state": {
+          "branch": null,
+          "revision": "81a65c4069c28011ee432f2858ba0de49b086677",
+          "version": "3.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

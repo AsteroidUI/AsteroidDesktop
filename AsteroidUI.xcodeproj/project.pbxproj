@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3519B787C3A43F3A87A7BF6B /* Pods_Asteroid_Desktop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7CFA7682C5C0155C510D7D1 /* Pods_Asteroid_Desktop.framework */; };
+		56090EFD24D8FDD600102E92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56090EFC24D8FDD600102E92 /* AppDelegate.swift */; };
+		56090F0124D8FDD800102E92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56090F0024D8FDD800102E92 /* Assets.xcassets */; };
+		56090F0724D8FDD800102E92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56090F0524D8FDD800102E92 /* Main.storyboard */; };
+		56090F1524DA575D00102E92 /* Bash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56090F1424DA575D00102E92 /* Bash.swift */; };
+		562DA16E24F0C533000668C5 /* K8sPrefView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562DA16D24F0C533000668C5 /* K8sPrefView.swift */; };
+		562DA17024F0C5E4000668C5 /* GeneralPrefView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562DA16F24F0C5E4000668C5 /* GeneralPrefView.swift */; };
+		562DA17224F0C6D6000668C5 /* ContainerPrefView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562DA17124F0C6D6000668C5 /* ContainerPrefView.swift */; };
+		566D8D2824F9320D0096B53C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56090F0324D8FDD800102E92 /* Preview Assets.xcassets */; };
+		566D8D2A24F9EFE50096B53C /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566D8D2924F9EFE50096B53C /* Command.swift */; };
+		5674E64B24E6A2FA00E8575B /* LoginItemKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5674E64A24E6A2FA00E8575B /* LoginItemKit */; };
+		56B8CE1024E5659900F82D39 /* Kind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B8CE0F24E5659900F82D39 /* Kind.swift */; };
+		56B8CE1224E565A400F82D39 /* Kubectl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B8CE1124E565A400F82D39 /* Kubectl.swift */; };
+		56CFC40B24F6973B00EA7F75 /* Opener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56CFC40A24F6973B00EA7F75 /* Opener.swift */; };
+		56D2992D250F4AB800E2FBE4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 56D2992C250F4AB800E2FBE4 /* README.md */; };
+		56D7FD5C24EB557B001F6CD7 /* Yams in Frameworks */ = {isa = PBXBuildFile; productRef = 56D7FD5B24EB557B001F6CD7 /* Yams */; };
+		56EA945E24DA7E0600F2AD2C /* Vctl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EA945D24DA7E0600F2AD2C /* Vctl.swift */; };
+		56EA946024DA9DDC00F2AD2C /* Terminal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EA945F24DA9DDC00F2AD2C /* Terminal.swift */; };
+		56EA946224DB849F00F2AD2C /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EA946124DB849F00F2AD2C /* Types.swift */; };
+		56EA946424DB89E600F2AD2C /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EA946324DB89E600F2AD2C /* AppData.swift */; };
+		56EA946624DBA50200F2AD2C /* SystemStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EA946524DBA50200F2AD2C /* SystemStatusView.swift */; };
+		56EA946824DC35C800F2AD2C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EA946724DC35C800F2AD2C /* Constants.swift */; };
+		56EA946B24DCC6FA00F2AD2C /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EA946A24DCC6FA00F2AD2C /* DashboardView.swift */; };
+		56EA947124DCD4AC00F2AD2C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56EA947324DCD4AC00F2AD2C /* Localizable.strings */; };
+		56EA947724DCDAEE00F2AD2C /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EA947624DCDAEE00F2AD2C /* AboutView.swift */; };
+		56EA947924DCDB0800F2AD2C /* PreferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EA947824DCDB0800F2AD2C /* PreferencesView.swift */; };
+		56EA947B24DCDBE200F2AD2C /* DetailWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56EA947A24DCDBE200F2AD2C /* DetailWindowController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		56090EF924D8FDD600102E92 /* Asteroid Desktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Asteroid Desktop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56090EFC24D8FDD600102E92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		56090F0024D8FDD800102E92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56090F0324D8FDD800102E92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		56090F0624D8FDD800102E92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56090F0824D8FDD800102E92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56090F1424DA575D00102E92 /* Bash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bash.swift; sourceTree = "<group>"; };
+		562DA16D24F0C533000668C5 /* K8sPrefView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K8sPrefView.swift; sourceTree = "<group>"; };
+		562DA16F24F0C5E4000668C5 /* GeneralPrefView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralPrefView.swift; sourceTree = "<group>"; };
+		562DA17124F0C6D6000668C5 /* ContainerPrefView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerPrefView.swift; sourceTree = "<group>"; };
+		566D8CFD24F91A400096B53C /* update_appcast.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = update_appcast.sh; sourceTree = "<group>"; };
+		566D8D2924F9EFE50096B53C /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		56B8CE0F24E5659900F82D39 /* Kind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kind.swift; sourceTree = "<group>"; };
+		56B8CE1124E565A400F82D39 /* Kubectl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kubectl.swift; sourceTree = "<group>"; };
+		56CFC40A24F6973B00EA7F75 /* Opener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Opener.swift; sourceTree = "<group>"; };
+		56D2992C250F4AB800E2FBE4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		56EA945D24DA7E0600F2AD2C /* Vctl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vctl.swift; sourceTree = "<group>"; };
+		56EA945F24DA9DDC00F2AD2C /* Terminal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terminal.swift; sourceTree = "<group>"; };
+		56EA946124DB849F00F2AD2C /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		56EA946324DB89E600F2AD2C /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		56EA946524DBA50200F2AD2C /* SystemStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemStatusView.swift; sourceTree = "<group>"; usesTabs = 0; };
+		56EA946724DC35C800F2AD2C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		56EA946A24DCC6FA00F2AD2C /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		56EA947224DCD4AC00F2AD2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		56EA947424DCD4C700F2AD2C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		56EA947624DCDAEE00F2AD2C /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		56EA947824DCDB0800F2AD2C /* PreferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferencesView.swift; sourceTree = "<group>"; };
+		56EA947A24DCDBE200F2AD2C /* DetailWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWindowController.swift; sourceTree = "<group>"; };
+		78819AD2C7786D26F6B2EC56 /* Pods-Asteroid Desktop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Asteroid Desktop.debug.xcconfig"; path = "Target Support Files/Pods-Asteroid Desktop/Pods-Asteroid Desktop.debug.xcconfig"; sourceTree = "<group>"; };
+		B7CFA7682C5C0155C510D7D1 /* Pods_Asteroid_Desktop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Asteroid_Desktop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E29F75B9293577886A3397 /* Pods-Asteroid Desktop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Asteroid Desktop.release.xcconfig"; path = "Target Support Files/Pods-Asteroid Desktop/Pods-Asteroid Desktop.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56090EF624D8FDD600102E92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5674E64B24E6A2FA00E8575B /* LoginItemKit in Frameworks */,
+				56D7FD5C24EB557B001F6CD7 /* Yams in Frameworks */,
+				3519B787C3A43F3A87A7BF6B /* Pods_Asteroid_Desktop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E41B59FC3A135B1D31734B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78819AD2C7786D26F6B2EC56 /* Pods-Asteroid Desktop.debug.xcconfig */,
+				F9E29F75B9293577886A3397 /* Pods-Asteroid Desktop.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		56090EF024D8FDD600102E92 = {
+			isa = PBXGroup;
+			children = (
+				56090EFB24D8FDD600102E92 /* AsteroidUI */,
+				56090EFA24D8FDD600102E92 /* Products */,
+				3E41B59FC3A135B1D31734B2 /* Pods */,
+				6657AC03440FF4529E457BA8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		56090EFA24D8FDD600102E92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56090EF924D8FDD600102E92 /* Asteroid Desktop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56090EFB24D8FDD600102E92 /* AsteroidUI */ = {
+			isa = PBXGroup;
+			children = (
+				56D2992C250F4AB800E2FBE4 /* README.md */,
+				566D8CFC24F91A330096B53C /* Scripts */,
+				56B8CE1324E566C300F82D39 /* Commands */,
+				56EA947E24DCDD7900F2AD2C /* Resources */,
+				56EA947C24DCDD4100F2AD2C /* Helpers */,
+				56EA946924DC360000F2AD2C /* UI */,
+				56090F1424DA575D00102E92 /* Bash.swift */,
+				56090EFC24D8FDD600102E92 /* AppDelegate.swift */,
+				56090F0024D8FDD800102E92 /* Assets.xcassets */,
+				56090F0524D8FDD800102E92 /* Main.storyboard */,
+				56090F0824D8FDD800102E92 /* Info.plist */,
+				56090F0224D8FDD800102E92 /* Preview Content */,
+				56EA945F24DA9DDC00F2AD2C /* Terminal.swift */,
+				56EA946124DB849F00F2AD2C /* Types.swift */,
+				56EA946324DB89E600F2AD2C /* AppData.swift */,
+				56EA946724DC35C800F2AD2C /* Constants.swift */,
+			);
+			path = AsteroidUI;
+			sourceTree = "<group>";
+		};
+		56090F0224D8FDD800102E92 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				56090F0324D8FDD800102E92 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		566D8CFC24F91A330096B53C /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				566D8CFD24F91A400096B53C /* update_appcast.sh */,
+			);
+			path = Scripts;
+			sourceTree = "<group>";
+		};
+		56B8CE1324E566C300F82D39 /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				566D8D2924F9EFE50096B53C /* Command.swift */,
+				56EA945D24DA7E0600F2AD2C /* Vctl.swift */,
+				56B8CE0F24E5659900F82D39 /* Kind.swift */,
+				56B8CE1124E565A400F82D39 /* Kubectl.swift */,
+			);
+			path = Commands;
+			sourceTree = "<group>";
+		};
+		56EA946924DC360000F2AD2C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				56EA946524DBA50200F2AD2C /* SystemStatusView.swift */,
+				56EA946A24DCC6FA00F2AD2C /* DashboardView.swift */,
+				56EA947624DCDAEE00F2AD2C /* AboutView.swift */,
+				56EA947824DCDB0800F2AD2C /* PreferencesView.swift */,
+				562DA16D24F0C533000668C5 /* K8sPrefView.swift */,
+				562DA16F24F0C5E4000668C5 /* GeneralPrefView.swift */,
+				562DA17124F0C6D6000668C5 /* ContainerPrefView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		56EA947C24DCDD4100F2AD2C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				56EA947A24DCDBE200F2AD2C /* DetailWindowController.swift */,
+				56CFC40A24F6973B00EA7F75 /* Opener.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		56EA947E24DCDD7900F2AD2C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				56EA947324DCD4AC00F2AD2C /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6657AC03440FF4529E457BA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7CFA7682C5C0155C510D7D1 /* Pods_Asteroid_Desktop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56090EF824D8FDD600102E92 /* Asteroid Desktop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56090F0C24D8FDD800102E92 /* Build configuration list for PBXNativeTarget "Asteroid Desktop" */;
+			buildPhases = (
+				F618F884916128D1DDE88BBE /* [CP] Check Pods Manifest.lock */,
+				56090EF524D8FDD600102E92 /* Sources */,
+				56090EF624D8FDD600102E92 /* Frameworks */,
+				567F066424DFF3E20079F13C /* ShellScript */,
+				567F066524DFF4A70079F13C /* ShellScript */,
+				56090EF724D8FDD600102E92 /* Resources */,
+				56EA947524DCD55E00F2AD2C /* ShellScript */,
+				113D7465921DDE8D6F127777 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Asteroid Desktop";
+			packageProductDependencies = (
+				5674E64A24E6A2FA00E8575B /* LoginItemKit */,
+				56D7FD5B24EB557B001F6CD7 /* Yams */,
+			);
+			productName = AsteroidUI;
+			productReference = 56090EF924D8FDD600102E92 /* Asteroid Desktop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56090EF124D8FDD600102E92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Xiaodong Ye";
+				TargetAttributes = {
+					56090EF824D8FDD600102E92 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 56090EF424D8FDD600102E92 /* Build configuration list for PBXProject "AsteroidUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 56090EF024D8FDD600102E92;
+			packageReferences = (
+				5674E64924E6A2FA00E8575B /* XCRemoteSwiftPackageReference "LoginItemKit" */,
+				56D7FD5A24EB557B001F6CD7 /* XCRemoteSwiftPackageReference "Yams" */,
+			);
+			productRefGroup = 56090EFA24D8FDD600102E92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56090EF824D8FDD600102E92 /* Asteroid Desktop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56090EF724D8FDD600102E92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56090F0724D8FDD800102E92 /* Main.storyboard in Resources */,
+				56EA947124DCD4AC00F2AD2C /* Localizable.strings in Resources */,
+				56D2992D250F4AB800E2FBE4 /* README.md in Resources */,
+				56090F0124D8FDD800102E92 /* Assets.xcassets in Resources */,
+				566D8D2824F9320D0096B53C /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		113D7465921DDE8D6F127777 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Asteroid Desktop/Pods-Asteroid Desktop-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Asteroid Desktop/Pods-Asteroid Desktop-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Asteroid Desktop/Pods-Asteroid Desktop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		567F066424DFF3E20079F13C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"\n";
+		};
+		567F066524DFF4A70079F13C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nVERSIONNUM=$(/usr/libexec/PlistBuddy -c \"Print CFBundleShortVersionString\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nNEWSUBVERSION=`echo $VERSIONNUM | awk -F \".\" '{print $3}'`\nNEWSUBVERSION=$(($NEWSUBVERSION + 1))\nNEWVERSIONSTRING=`echo $VERSIONNUM | awk -F \".\" '{print $1 \".\" $2 \".'$NEWSUBVERSION'\" }'`\n/usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString $NEWVERSIONSTRING\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"\n";
+		};
+		56EA947524DCD55E00F2AD2C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncd \"$PROJECT_DIR\"/\"$PROJECT_NAME\"\ngenstrings -SwiftUI -o ./Resources/en.lproj *.swift\n";
+		};
+		F618F884916128D1DDE88BBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Asteroid Desktop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56090EF524D8FDD600102E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56EA945E24DA7E0600F2AD2C /* Vctl.swift in Sources */,
+				56EA946024DA9DDC00F2AD2C /* Terminal.swift in Sources */,
+				56EA946B24DCC6FA00F2AD2C /* DashboardView.swift in Sources */,
+				56090EFD24D8FDD600102E92 /* AppDelegate.swift in Sources */,
+				56EA947724DCDAEE00F2AD2C /* AboutView.swift in Sources */,
+				56090F1524DA575D00102E92 /* Bash.swift in Sources */,
+				56EA946224DB849F00F2AD2C /* Types.swift in Sources */,
+				56EA946824DC35C800F2AD2C /* Constants.swift in Sources */,
+				56EA946624DBA50200F2AD2C /* SystemStatusView.swift in Sources */,
+				562DA16E24F0C533000668C5 /* K8sPrefView.swift in Sources */,
+				56EA946424DB89E600F2AD2C /* AppData.swift in Sources */,
+				562DA17224F0C6D6000668C5 /* ContainerPrefView.swift in Sources */,
+				56B8CE1224E565A400F82D39 /* Kubectl.swift in Sources */,
+				56EA947B24DCDBE200F2AD2C /* DetailWindowController.swift in Sources */,
+				56CFC40B24F6973B00EA7F75 /* Opener.swift in Sources */,
+				566D8D2A24F9EFE50096B53C /* Command.swift in Sources */,
+				56EA947924DCDB0800F2AD2C /* PreferencesView.swift in Sources */,
+				56B8CE1024E5659900F82D39 /* Kind.swift in Sources */,
+				562DA17024F0C5E4000668C5 /* GeneralPrefView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		56090F0524D8FDD800102E92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56090F0624D8FDD800102E92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56EA947324DCD4AC00F2AD2C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56EA947224DCD4AC00F2AD2C /* en */,
+				56EA947424DCD4C700F2AD2C /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56090F0A24D8FDD800102E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56090F0B24D8FDD800102E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		56090F0D24D8FDD800102E92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78819AD2C7786D26F6B2EC56 /* Pods-Asteroid Desktop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AsteroidUI/AsteroidUI.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"AsteroidUI/Preview Content\"";
+				DEVELOPMENT_TEAM = V9JFA9UAGD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AsteroidUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdq.AsteroidUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		56090F0E24D8FDD800102E92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9E29F75B9293577886A3397 /* Pods-Asteroid Desktop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AsteroidUI/AsteroidUI.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"AsteroidUI/Preview Content\"";
+				DEVELOPMENT_TEAM = V9JFA9UAGD;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AsteroidUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pdq.AsteroidUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56090EF424D8FDD600102E92 /* Build configuration list for PBXProject "AsteroidUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56090F0A24D8FDD800102E92 /* Debug */,
+				56090F0B24D8FDD800102E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56090F0C24D8FDD800102E92 /* Build configuration list for PBXNativeTarget "Asteroid Desktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56090F0D24D8FDD800102E92 /* Debug */,
+				56090F0E24D8FDD800102E92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5674E64924E6A2FA00E8575B /* XCRemoteSwiftPackageReference "LoginItemKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/chrenn/LoginItemKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+		56D7FD5A24EB557B001F6CD7 /* XCRemoteSwiftPackageReference "Yams" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jpsim/Yams.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5674E64A24E6A2FA00E8575B /* LoginItemKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5674E64924E6A2FA00E8575B /* XCRemoteSwiftPackageReference "LoginItemKit" */;
+			productName = LoginItemKit;
+		};
+		56D7FD5B24EB557B001F6CD7 /* Yams */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56D7FD5A24EB557B001F6CD7 /* XCRemoteSwiftPackageReference "Yams" */;
+			productName = Yams;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 56090EF124D8FDD600102E92 /* Project object */;
+}

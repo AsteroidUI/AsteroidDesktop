@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Asteroid Desktop</title>
+        <item>
+            <title>1.0.1</title>
+            <pubDate>Tue, 15 Sep 2020 07:49:49 +0800</pubDate>
+            <sparkle:minimumSystemVersion>10.15</sparkle:minimumSystemVersion>
+            <enclosure url="https://raw.githubusercontent.com/AsteroidUI/AsteroidDesktop/master/Updates/AsteroidUI-1460.zip" sparkle:version="1460" sparkle:shortVersionString="1.0.1" length="3443278" type="application/octet-stream" sparkle:edSignature="2EqBOf45D5y4/YjZVgZhrplHtf1W50lIl3f1beaf56cm59xNFaG5bcNs7M+VFtn5NbubJ8oIJm0tJNhjD+BnAA=="/>
+        </item>
+    </channel>
+</rss>
