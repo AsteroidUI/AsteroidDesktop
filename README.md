@@ -1,6 +1,6 @@
 # Asteroid Desktop ![platform](https://img.shields.io/badge/platform-macOS-999999.svg?logo=apple) ![swift](https://img.shields.io/badge/Swift-5-FA7343.svg?logo=swift) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/yeahdongcn%40gmail.com) 
 
-The missing [vctl](https://github.com/VMwareFusion/nautilus) UI for macOS.
+The missing [vctl](https://github.com/VMwareFusion/vctl-docs) UI for macOS.
 
 <img src="https://raw.githubusercontent.com/AsteroidUI/AsteroidDesktop/master/Artworks/Version-artwork-2x.png" width="320">
 
